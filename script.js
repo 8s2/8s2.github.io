@@ -1,12 +1,17 @@
 document.body.innerHTML = `
        <div class="header">
-       <a class="larger button" style="background:#45910f" href="index.html">EightSidedSquare</a>
+       <a class="button" style="color:#45910f" href="index.html">EightSidedSquare</a>
+       <a class="button" href="mods.html">Mods</a>
+       <a class="button" href="about.html">About</a>
        <div class="socials">
-           <a class="button" style="background:red" target="_blank" href="https://www.youtube.com/c/EightSidedSquare">YouTube</a>
-           <a class="button" style="background:#1DA1F2" target="_blank" href="https://twitter.com/SidedSquare">Twitter</a>
-           <a class="button" style="background:black" target="_blank" href="https://www.tiktok.com/@eightsidedsquare">TikTok</a>
+           <a class="button" style="color:#ff0000" target="_blank" href="https://www.youtube.com/c/EightSidedSquare">YouTube</a>
+           <a class="button" style="color:#5865F2" target="_blank" href="https://discord.gg/rattiestgang/">Discord</a>
+           <a class="button" style="color:#1DA1F2" target="_blank" href="https://twitter.com/SidedSquare">Twitter</a>
+           <a class="button" style="color:#ff0050" target="_blank" href="https://www.tiktok.com/@eightsidedsquare">TikTok</a>
+           <a class="button" style="color:#6441a5" target="_blank" href="https://www.twitch.tv/eightsidedsquare">Twitch</a>
        </div>
    </div>
+   <hr>
    <div class="content">` + document.body.innerHTML + `</div>`;
 document.head.innerHTML = `
     <meta charset="utf-8">

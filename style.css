@@ -3,13 +3,30 @@ body {
     color: white;
     background: #333536;
     font-size: 24px;
-    line-height: 64px;
+    line-height: 36px;
     padding: 0;
     margin: 0;
 }
 
+hr {
+    width: 99.5%;
+    border-top: 2px solid white;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 300px;
+    margin: 15px;
+    border: 2px solid white;
+}
+
 .content {
-    padding: 5px;
+    padding: 15px;
+}
+
+.gallery{
+    max-width: 1300px;
 }
 
 .larger {
@@ -23,41 +40,39 @@ span {
 .socials {
     background: #333536;
     border: 2px solid white;
-    padding-left: 15px;
-    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 5px;
     float: right;
     width: fit-content;
+    position: sticky;
 }
 
 .header {
-    background: #23283d;
-    box-shadow: 0px 2px 0px white;
     padding: 15px;
 }
 
 a:link {
-    text-decoration: none;
+    text-decoration: underline;
+    color: white;
 }
 
 a:visited {
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
+    color: white;
 }
 
 a:active {
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
 }
 
 .button {
     padding: 5px;
-    margin-right: 15px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px black;
     cursor: pointer;
 }
 
