@@ -1,8 +1,8 @@
 document.body.innerHTML = `
        <div class="header">
-       <a class="button" style="color:#45910f" href="index.html">EightSidedSquare</a>
-       <a class="button" href="mods.html">Mods</a>
-       <a class="button" href="about.html">About</a>
+       <a class="button" style="color:#45910f" href="index">EightSidedSquare</a>
+       <a class="button" href="mods">Mods</a>
+       <a class="button" href="about">About</a>
        <div class="socials">
            <a class="button" style="color:#ff0000" target="_blank" href="https://www.youtube.com/c/EightSidedSquare">YouTube</a>
            <a class="button" style="color:#5865F2" target="_blank" href="https://discord.gg/rattiestgang/">Discord</a>
